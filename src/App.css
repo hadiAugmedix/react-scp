@@ -1,0 +1,35 @@
+.header {
+    padding: 15px 0;
+}
+
+.notewriter {
+    padding: 20px 0;
+}
+
+.dropdown-body {
+    top: 100%;
+}
+
+.notewriter-plist>a {
+    display: block;
+    margin: 10px 0;
+    opacity: 0.5;
+}
+
+.notewriter-plist>a.active {
+    opacity: 1;
+}
+
+.form-inline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+._ck-editors ._ck-editor {
+    display: none;
+}
+
+._ck-editors ._ck-editor.active {
+    display: block;
+}
